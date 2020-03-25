@@ -18,11 +18,7 @@ JavaFX application generating kind of a fractal with properties you can adjust
   - [Table of Contents](#table-of-contents)
   - [Background](#background)
   - [Install](#install)
-    - [From source](#from-source)
-    - [Download artifact](#download-artifact)
   - [Usage](#usage)
-    - [From source](#from-source-1)
-    - [Run jar](#run-jar)
   - [Maintainers](#maintainers)
   - [Contributing](#contributing)
   - [License](#license)
@@ -32,23 +28,17 @@ Made this small application to explore interesting images that could be created 
 Was thinking to paint something like this on my wall, but in the end the complexity to get this done was to great.
 
 ## Install
-### From source
 This project uses the gradle build system
 
 ```bash
 git clone https://github.com/theodedeken/fractal
 ./gradlew build
 ```
-### Download artifact
-TODO
 
 ## Usage
-### From source
 ```bash
 ./gradlew run
 ```
-### Run jar
-TODO
 
 ## Maintainers
 
