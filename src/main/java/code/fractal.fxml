@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<?import sample.PropertyControl?>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.FractalController">
+   <center>
+      <ScrollPane BorderPane.alignment="CENTER">
+         <content>
+            <Pane fx:id="view" />
+         </content>
+      </ScrollPane>
+   </center>
+   <right>
+      <VBox alignment="TOP_CENTER" prefHeight="400.0" prefWidth="256.0" spacing="10.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="Properties" />
+            <Separator prefWidth="200.0" />
+            <HBox alignment="CENTER" spacing="5.0">
+               <children>
+                  <Label text="Start x" />
+                  <TextField prefWidth="64.0" fx:id="xValue"/>
+                  <Label text="Start y" />
+                  <TextField prefWidth="64.0" fx:id="yValue"/>
+               </children>
+            </HBox>
+            <Label text="Initial size" />
+            <PropertyControl alignment="CENTER" spacing="5.0" fx:id="size" min="1" max="300" increment="1"></PropertyControl>
+            <Label text="Initial rotation" />
+            <PropertyControl alignment="CENTER" spacing="5.0" fx:id="rotation" min="0" max="359" increment="1"></PropertyControl>
+            <Label text="Left rotation offset" />
+            <PropertyControl alignment="CENTER" spacing="5.0" fx:id="leftOffset" min="0" max="179" increment="1"></PropertyControl>
+            <Label text="Right rotation offset" />
+            <PropertyControl alignment="CENTER" spacing="5.0" fx:id="rightOffset" min="0" max="179" increment="1"></PropertyControl>
+            <Label text="Left distance multiplier" />
+            <PropertyControl alignment="CENTER" spacing="5.0" fx:id="leftMult" min="0" max="5" increment="0.05"></PropertyControl>
+            <Label text="Right distance multiplier" />
+            <PropertyControl alignment="CENTER" spacing="5.0" fx:id="rightMult" min="0" max="5" increment="0.05"></PropertyControl>
+            <Label text="Iterations" />
+            <HBox alignment="CENTER" spacing="5.0">
+               <children>
+                  <Button mnemonicParsing="false" text="&lt;" fx:id="itMin" />
+                  <Button mnemonicParsing="false" text="&gt;" fx:id="itPlus"/>
+                  <TextField prefHeight="25.0" prefWidth="32.0" fx:id="it"/>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </right>
+</BorderPane>
