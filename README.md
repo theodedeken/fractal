@@ -8,7 +8,7 @@ SPDX-License-Identifier: CC0-1.0
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/4f09ff34b5ea4263a3a2fe4740dbacd7)](https://app.codacy.com/manual/theodedeken/fractal?utm_source=github.com&utm_medium=referral&utm_content=theodedeken/fractal&utm_campaign=Badge_Grade_Dashboard)
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
-TODO: Put more badges here.
+[![REUSE compliant](https://github.com/theodedeken/fractal/workflows/REUSE%20compliant/badge.svg)](https://reuse.software/)
 
 JavaFX application generating kind of a fractal with properties you can adjust
 
