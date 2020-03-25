@@ -27,15 +27,22 @@ Was thinking to paint something like this on my wall, but in the end the complex
 
 ## Install
 ### From source
-```
+This project uses the gradle build system
+
+```bash
+git clone https://github.com/theodedeken/fractal
+./gradlew build
 ```
 ### Download artifact
+TODO
 
 ## Usage
 ### From source
-```
+```bash
+./gradlew run
 ```
 ### Run jar
+TODO
 
 ## Maintainers
 
